@@ -1,4 +1,4 @@
-# chatbot
+# soccerbot aka footballbot
 
 Go to http://nsa-temp.cs.unm.edu:8080/soccerbot to connect my soccerbot.
 
