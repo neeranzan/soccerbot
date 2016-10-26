@@ -1,0 +1,204 @@
+
+	START OF LOG
+
+Input: any news with the soccer 	Response : Please say it football not soccer. :)
+
+Input: what about the news then 	Response : EL classico for 2016 is set to be in December. The president wants to have more viewers as possible.
+
+Input: i like the weather today 	Response : The weather looks great to play soccer. You like rain? i love it
+
+Input: yeah we can go to UNM pitch sometime 	Response : Somebody call it pitch but somebody call it arena. You decide what you wanna call it.
+
+Input: what about match in johnson field 	Response : Bring you football boot for upcoming match. How does that sound?
+
+Input: yes i will 	Response : Good to hear that ! I will check with my friends.
+
+Input: I want to know about european football 	Response : 			I guess you are not bored about soccer ?
+
+Input: But i prefer sunny day. 	Response : 			Anymore you wanna know. hurry up!
+
+Input: who is the best player in the world currently 	Response : Argentina won because of maradona in 1986.
+
+Input: who is maradona 	Response : I love Andres pirlo. he played for Juventus. Do you watch leagues?
+
+Input: yes leagues are fun 	Response : Atletico madrid won the champions league 2015.
+
+Input: I didnot get a good sleep last night 	Response : how you holding up ?
+
+Input: i am fine now 	Response : 			Just keep up with the matches. you will find the game exciting and players too.	
+
+Input: match tomorrow? 	Response : I guess we talked about our match. Lets talk about general stufss now dude!
+
+Input: what about live one ? 	Response : cmon we have our match coming. Lets get out of it and talk about MLS.
+
+Input: what is MLS? 	Response : Soccer is getting popular these days in US.
+
+Input: yes i know but i want to know about world cup stuffs 	Response : Ronaldihno was the showman of the football. His dribbling is spectucalar.You should see that.
+
+Input: which country is he from? 	Response : South American games are different from european ones.
+
+Input: I am feeling lazy 	Response : 			I cant wait to talk about soccer more.
+
+Input: but i wan't to talk about homeworks and stuffs 	Response : 			i wont be available every time. so lets do it.
+
+Input: oh ok 	Response : 			The weather looks great ! 
+
+Input:  I need to go. catch you later bye 	Response : It was great talking to you ! Sayo nara !
+
+
+	START OF LOG
+
+Input: how are you doing 	Response : Hi, ! how you doing mate ?
+
+Input: i am good thanks 	Response : Good to hear ! Things are getting pretty intense in soccer nowadays!
+
+Input: soccer 	Response : Please say it football not soccer. :)
+
+Input: i don't know anything about football 	Response : 			I cant wait to talk about soccer more.
+
+Input: do you watch soccer 	Response : Why do you call it soccer ? World says it football so do i. You guys are crazy !
+
+Input: ok whatst the news with the football then? 	Response : US National team recently make a draw of 1-1 with New Zealand. You guys could have done better.
+
+Input: america sucks! 	Response : You play football with your hands. Thats funny hahaha..
+
+Input: I want to know about it. any updates? 	Response : US National team recently make a draw of 1-1 with New Zealand. You guys could have done better.
+
+Input: what about the rumour 	Response : US National team recently make a draw of 1-1 with New Zealand. You guys could have done better.
+
+
+	START OF LOG
+
+Input: hello 	Response : Hi,I am good. You seem great too. are you ?
+
+Input: I am bad 	Response : Look the brighter side ! you look gorgeous like football stars!
+
+Input: what about stars you mean 	Response : Who do you think Maradona plays for? .. I mean country
+
+Input: I guess america 	Response : Soccer was illegal in Mississippi until 1991. Crazy people !
+
+Input: US is not good in soccer 	Response : Soccer is getting popular these days in US.
+
+Input: We call it soccer  	Response : Please say it football not soccer. :)
+
+Input: I am busy working with my homeworks. I like to talk about it though 	Response : You play football with your hands. Thats funny hahaha..
+
+Input: I want to know about messi 	Response : Pele is a legend of football. He contributed to win 3 worldcup in his career.
+
+Input: what is world cup 	Response : Ronaldihno was the showman of the football. His dribbling is spectucalar.You should see that.
+
+Input: I like playing in the rain 	Response : Its likely to rain today. I will watch league final today.
+
+Input: you mean match 	Response : Bring you football boot for upcoming match. How does that sound?
+
+Input: No i am busy 	Response : Its ok if you are busy. I totally understand.
+
+Input: I wish i could see live match someday 	Response : Would you like to watch tonight match with me. You know popcorn and beer! Its el classico
+
+Input: ok cool 	Response : We can do match instead? or we can go for hike then lol...i hate hiking though. I like running with football boot lol
+
+Input: I feel tired 	Response : 			I guess you are not bored about soccer ?
+
+*UNKNOWN* 
+Input: I feel tired 	Response : 			I guess you are not bored about soccer ?
+
+Input: I am not. I need to go to university soon 	Response : That would be wonderful to watch UNM players  playing soccer.
+
+Input: I am terrible playing soccer 	Response : American soccer in women is doing great. They were the champions last year.
+
+Input: who is your best player 	Response : Ronalidhno succedeed more than 6 nutmegs in game against AC milan.
+
+Input: I like ronaldo though 	Response : Brazillian ronaldo has been fifa player of the year for 3 times. any player you like?
+
+Input: I like pirlo . he plays from juventus 	Response : The first American professional soccer league, the USSA, played from 1919 to 1921 and paid 35 cents to every players for scoring. Interesting huh !
+
+Input: I just want to go to sleep now 	Response : Why do you call it soccer ? World says it football so do i. You guys are crazy !
+
+Input: I am tired and exahusted 	Response : Do you know anything about MLS? If you dont get the hell out of here.... I am just kidding.. lol
+
+Input: what about health 	Response : 			I felt wonderful talking to you.
+
+*UNKNOWN* 
+Input: what about health 	Response : 			I felt wonderful talking to you.
+
+Input: same here. we should hang out sometime 	Response : Its cold . Where is your sweater?. It seems like it will rain too! Oh God !
+
+*UNKNOWN* 
+Input: same here. we should hang out sometime 	Response : Its cold . Where is your sweater?. It seems like it will rain too! Oh God !
+
+Input: I like this weather though 	Response : The weather looks great to play soccer. You like rain? i love it
+
+Input: I like rain 	Response : 			I liked to get more goals when i play like messi does.
+
+Input: i gotta go bye 	Response : HASTA LA VISTA ! Good Day !
+
+	START OF LOG
+
+Input: Hello dude 	Response : Things are going well for me. how is it for you ?
+
+Input: I am doing terrible 	Response : Shit happens ! . You should play soccer. It makes you feel great I bet .
+
+Input: i just like to watch it 	Response : You play football with your hands. Thats funny hahaha..
+
+Input: yes buts its america brother 	Response : Why do you call it soccer ? World says it football so do i. You guys are crazy !
+
+Input: any latest news on it? 	Response : The breaking news: I am going to Europe to see the match in stadium. Ohhh..I cant believe i am doing that.
+
+Input: you mean actually in stadium? 	Response : The first Clasico of the season between Barcelona and Real Madrid has been scheduled for December 3 at  11:15 a.m. ET (4:15 p.m. CET). Cant wait to see stars.
+
+Input: can we talk about the rules? i don't know any 	Response : Game is played ninety minutes. Half time each 45 min. You need to be physically fit.
+
+Input: I have an injury. I can't play 	Response : Its cold . Where is your sweater?. It seems like it will rain too! Oh God !
+
+Input: But i like this weather 	Response : Its likely to rain today. I will watch league final today.
+
+Input: can you tell me what champions league is 	Response : Did you get the recent news?
+
+Input: what is the news? 	Response : EL classico for 2016 is set to be in December. The president wants to have more viewers as possible.
+
+Input: ok. I like ronaldo . He is a great player 	Response : Argentina won because of maradona in 1986.
+
+Input: I like brazil though 	Response : Brazil won it for five times, Germany 4 and italy 3
+
+Input: Isn't pele from brazil 	Response : Brazillian ronaldo has been fifa player of the year for 3 times. any player you like?
+
+Input: pele 	Response : Who do you think Maradona plays for? .. I mean country
+
+Input: argentina 	Response : Argentina rocks !! They are going to win the another cup .
+
+Input: what about pele. I am asking you again? 	Response : I love Andres pirlo. he played for Juventus. Do you watch leagues?
+
+Input: are you not going to tell me about pele 	Response : Pele is a legend of football. He contributed to win 3 worldcup in his career.
+
+Input: I am tired 	Response : 			I feel like i should have played more soccer when i was child.
+
+*UNKNOWN* 
+Input: I am tired 	Response : 			I feel like i should have played more soccer when i was child.
+
+Input: lets party tonite 	Response : What about live match today. Its between madrid and barcelona. Super coool!!!!
+
+Input: i don't know about barcelona 	Response : Busy ! No worries. Just tell me how is soccer going?
+
+Input: soccer is great i love it . i said that  	Response : Soccer is getting popular these days in US.
+
+Input: I need to go do homeworks 	Response : how you holding up ?
+
+Input: I am great. homeworks 	Response : 			If i could meet one footballer it would be Messi.
+
+Input: I don't want to talk about this anymore 	Response : 			i wont be available every time. so lets do it.
+
+Input: Ok. any history about football you can tell me.? 	Response : Before the year 1891, football boots weren’t in use. Instead, the players wore work boots.
+
+Input: wow ! what about other facts? 	Response : Did you know the football were made from inflated pig bladders? funny hah .
+
+Input: yeah its funny 	Response : 			would i be able to talk to you again ?
+
+*UNKNOWN* 
+Input: yeah its funny 	Response : 			would i be able to talk to you again ?
+
+Input: I guess we will be in match some day hahaha.. 	Response : How about we have a football match some day?
+
+Input: No, i just said. I don't mean it 	Response : Thats fine. We can reschedule it next time. Meanwhile we can watch some match onscreen.
+
+Input: ok. but i need to go .thanks.. good bye 	Response : It was great talking to you ! Sayo nara !
+

@@ -1,0 +1,618 @@
+<?xml version="1.0"?>
+
+<data>
+	<connotations>
+		<connotation>
+			<key>normal</key>
+			<trigger>
+				fine
+				alright
+			</trigger>
+			<response>
+			you dont look excited. Everything alright ? Game is on.
+			Hey chill up ! we are having wonderful discussion.   
+			Seems like you are not too much into football. Can you believe football is like a religion in other countries.
+			Just keep up with the matches. you will find the game exciting and players too.	
+			Cmon. You dont wanna see Messi playing being on the stadium. How cool that be !
+			Dont wanna know about football facts?
+			</response>
+		</connotation>
+		<connotation>
+			<key>curious</key>
+			<trigger>
+				nice
+				great
+				wonderful
+			</trigger>
+			<response>
+			I am happy that you are excited.
+			Sounds great ! we need to move fast ! I need to go to see the match soon!
+			We should talk about this more. You are great!
+			Nice to hear that you like this.
+			</response>
+		</connotation>
+		<connotation>
+			<key>cold</key>
+			<trigger>
+				bad
+				terrible
+				horrible
+				worse
+				rough
+				gross
+			</trigger>
+			<response>
+			Hey, dont be cold . we are just talking. I am not asking for your kidney haha...
+		Hey. lets warm up. After all ,we are talking about football
+		Hey. are you not interested? thats terrible.lemme share some exciting facts about football
+		Yeah ! football sometimes become the dirty game. You should watch El Classico fights.
+		But you are still breathing.You should play football to have more fun !
+			</response>
+		</connotation>
+	</connotations>
+
+	<!-- Conversation starters based on tracked time and unknown responses triggered -->
+	<modes>
+		<mode>
+			how you holding up ? don't you want to talk about match?
+			I guess you are not bored about soccer ?
+			I cant wait to talk about soccer more.
+			i wont be available every time. so lets do it.
+		</mode>
+		<mode>
+			Its cold . Where is your sweater?. It seems like it will rain too! Oh God !
+			The weather looks great ! 
+			I feel like i should have played more soccer when i was child.
+			I liked to get more goals when i play like messi does.
+			If i could meet one footballer it would be Messi.
+		</mode>
+		<mode>
+			I dont have much time now. I will see you at UNM someday.
+			Anymore you wanna know. hurry up!.
+			I felt wonderful talking to you.
+			would i be able to talk to you again ?
+			I hope you will be around.
+		</mode>
+	</modes>
+
+	<reaction>
+	    <reaction>
+		oh ok. 
+		great!
+		ah..
+		I don’t  mind whatever it is .
+		aw sounds good.
+		Yeah. We can do that.
+		God is crazy ! 
+		Sometimes! You dont know whats gonna happen.
+		This world is unbelievable.
+		football is round so is earth... haha
+		That's gross hoho.
+		</reaction>
+	</reaction>
+
+	<!-- <record> <keywords> hi hola hello </keywords> <phrases> </phrases> 
+		<response> </response> </record> -->
+	<class>
+	<record>
+        <phrase>
+            goodbye
+            bye
+            later
+        </phrase>
+        <keyword>
+            bye
+            goodbye
+        </keyword>
+        <response>
+           It was great talking to you ! Sayo nara !
+           HASTA LA VISTA ! Good Day !
+           Good bye mate ! 
+        </response>
+        <quit>
+            true
+        </quit>
+    </record>
+    
+    <record>
+            <keyword>
+            hello
+            hola
+        </keyword>
+        <phrase>
+            hi,how are you doing?
+            hi,how are you?
+            hi,how is it going?
+            hi there, how are things going?
+			How is it going
+			how you doing
+			how are you doing
+        </phrase>
+        <response>
+          Hi, ! how you doing mate ?
+          Hi, Great to see you! I am doing good ! How are things going with you?
+          whats up.I am not doing bad. You?
+          I am doing good. you ?
+			Hi,I am good. You seem great too. are you ?
+				Yeah. its not bad. yours ?
+				Things are going well for me. how is it for you ?
+        </response>
+        <multipart>
+            true
+        </multipart>
+        <affirmative>
+           Good to hear that ! Did you watch the laliga today?
+           Happy to hear ! Did Messi scored a goal in todays match? Barcelona should have won today.
+           awesome that you are doing well ! football boots have become quite expensive. 
+           Wow great you are well ! did you get the news today. Premier Leagues are going to start soon ! 
+           Good to hear ! Things are getting pretty intense in soccer nowadays! 
+        </affirmative>
+        <negative>
+            Awww ! But you are still alive to talk about football. arent you mate
+            Shit happens ! . You should play soccer. It makes you feel great I bet .
+            Hope all will be good !. Yah ! Messi got injured too!
+            Look the brighter side ! you look gorgeous like football stars!        
+        </negative>
+        <unknown>
+           Not telling me ! No worries. Just tell me how is soccer going? We can at least talk about that
+           Its ok you will figure out what you are feeling later? Meanwhile i am going to stadium after a while.
+        </unknown>
+        <possibleaffirmatives>
+            im good
+            im great
+            im doing good
+            im doing great
+            im well
+            im doing well
+            awesome
+            happy
+            good
+            great
+            fine
+        </possibleaffirmatives>
+        <possiblenegatives>
+            not good
+            bad
+            sad
+            sick
+            mad
+            terrible
+        </possiblenegatives>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            Would you keep saying hello or wanna move to soccer stuffs.
+            We already said ! lets talk about football. I mean your soccer thing.
+        </exceededmemory>
+    </record>
+    <record>
+            <keyword>
+           game
+           tonite
+           live
+        </keyword>
+        <phrase>
+          tonight game
+          tonight match
+        </phrase>
+        <response>
+        Would you like to watch tonight match with me. You know popcorn and beer! Its el classico
+        What about live match today. Its between madrid and barcelona. Super coool!!!!
+        </response>
+        <multipart>
+            true
+        </multipart>
+        <affirmative>
+           Good to hear that ! I will let you know the time and venue
+           I am happy i will be watching match with you tonite. I will grab some beer
+           I wasnot hoping that you will like to join. Welcome home tonite dude !
+        </affirmative>
+        <negative>
+            Oh! no worries we can do it next time. We have other important match coming.
+            I thought you would like watch soccer as much i do. Never mind
+            Ok. You seem busy. we will make this work out next time my place.     
+        </negative>
+        <unknown>
+           Busy ! No worries. Just tell me how is soccer going? 
+          We can do match instead? or we can go for hike then lol...i hate hiking though. I like running with football boot lol
+        </unknown>
+        <possibleaffirmatives>
+           great
+           good
+           wonderful
+           exciting
+           free
+        </possibleaffirmatives>
+        <possiblenegatives>
+            busy
+            work
+            bad
+            terrible
+            homework
+            office
+            church
+        </possiblenegatives>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            Hey didnt we talk abou that already! we can jump to other stuffs. Ask me anything dude!
+            I dont wanna talk about it again. I will check with other friend for upcoming match.
+        </exceededmemory>
+    </record>
+    
+    <record>
+            <keyword>
+            match
+            tournament
+            competition
+            boot
+        </keyword>
+        <phrase>
+         the match
+         the tournament
+         the competition
+        </phrase>
+        <response>
+         How about we have a football match some day?
+         Would you like to go for match? We have UNM pitch
+         Lets have your team and my team play match this weekend?
+         Bring you football boot for upcoming match. How does that sound?
+        </response>
+        <multipart>
+            true
+        </multipart>
+        <affirmative>
+           Good to hear that ! I will check with my friends. 
+          Great ! cant wait to have a match. Great players match...lol. 
+          Lets do it in the evening saturday.
+          Remember we have a match.We will wait for you guys.
+        </affirmative>
+        <negative>
+           Its ok if you are busy. I totally understand.
+           Cant believe you didnt like the idea. You dont want to play soccer.. WOW ! what about watching MLS.
+           Thats fine. We can reschedule it next time. Meanwhile we can watch some match onscreen.     
+        </negative>
+        <unknown>
+           Just let me know when you feel like you want to talk about our match. I am always down for this!.
+        </unknown>
+        <possibleaffirmatives>
+           great
+           awesome
+           good
+           free
+           ok
+           yes
+        </possibleaffirmatives>
+        <possiblenegatives>
+          bad
+          busy
+          work
+          no
+        </possiblenegatives>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            I guess we talked about our match. Lets talk about general stufss now dude!
+            cmon we have our match coming. Lets get out of it and talk about MLS.
+        </exceededmemory>
+    </record>
+    
+	<record>
+	<keyword>
+	history
+	facts
+	figures
+	</keyword>
+	<phrase>
+	  the history
+	  the facts
+	  the figures
+	</phrase>
+	<response>
+	Did you know the football were made from inflated pig bladders? funny hah .
+	The history of soccer can be traced back to 3,000 years. Its pretty old dude !
+	Did you know the first video to reach 1 million view was with ronaldihno showing his soccer skills.
+	The game was originated in England first. Lots of league games are playe there.
+	Before the year 1891, football boots weren’t in use. Instead, the players wore work boots.
+	</response>
+	</record>
+	<record>
+	<keyword>
+	news
+	information
+	rumour
+	update
+	updates
+	affair
+	</keyword>
+	<phrase>
+	 the breaking news
+	 the current news
+	 the current affairs
+	</phrase>
+	<response>
+	US National team recently make a draw of 1-1 with New Zealand. You guys could have done better.
+	EL classico for 2016 is set to be in December. The president wants to have more viewers as possible.
+	lionel messi was rumoured to be in Real Madrid.Also, Neymar refused to leave barcelona.
+	The breaking news: I am going to Europe to see the match in stadium. Ohhh..I cant believe i am doing that.
+	Footballers have affairs with beautiful girls. I wish i was a footballer. haha..
+	If you want to learn more about football, go to goal.com. Information  there.
+	Keep updated with football through facebook pages.
+	</response>
+	</record>
+	<record>
+	<keyword>
+	america
+	soccer
+	MLS
+	US
+	</keyword>
+	<phrase>
+	Major Soccer League
+	the MLS
+	the america
+	the soccer
+	hands
+	hand
+	</phrase>
+	<response>
+	    Please say it football not soccer. :)
+	Why do you call it soccer ? World says it football so do i. You guys are crazy !
+	You play football with your hands. Thats funny hahaha.. 
+	American soccer in women is doing great. They were the champions last year.
+	Soccer is getting popular these days in US.
+	Do you know anything about MLS? If you dont get the hell out of here.... I am just kidding.. lol
+	The first American professional soccer league, the USSA, played from 1919 to 1921 and paid 35 cents to every players for scoring. Interesting huh !
+	Soccer was illegal in Mississippi until 1991. Crazy people !
+	</response>
+	<record>
+	    <keyword>
+	        weather
+	        rain
+	    </keyword>
+	    <phrase>
+	       the weather
+	       the rain
+	    </phrase>
+	    <response>
+	       The weather looks great to play soccer. You like rain? i love it
+	       Its likely to rain today. I will watch league final today.
+	    </response>
+	</record>
+	<record>
+	    <keyword>
+	        rules
+	        empire
+	        foul
+	    </keyword>
+	    <phrase>
+	        rules
+	        empire
+	        game
+	        foul
+	    </phrase>
+	    <response>
+	        Game is played ninety minutes. Half time each 45 min. You need to be physically fit.
+	        We have a empire and 11 players in each team. Sometimes the games get dirty. Messi got injured!
+	        Refree has yellow and red cards. Madrid players got many yellow cards for fouls.
+	        The ball is out of play when it fully crosses either the goal line or the touch line.
+	        Foul is given when player kicks or attempts to kick an opponent. You should see Madrid players. God! they are brutal!
+	    </response>
+	</record>
+	</record>
+		<record>
+			<keyword>
+				pitch
+				arena
+				stadium
+			</keyword>
+			<phrase>
+			    the pitch
+			    the stadium
+			    the match
+			    the religion
+			</phrase>
+			<response>
+				You don’t seem to know much about soccer. Did not you play?
+				Did you watch the recent match?
+				The stadium is too big .. The stadium in our university is quite small.
+				South American football is fun to watch. Argentina rocks!
+				European leagues are most popular in the world.
+				The football is like a religion all over the world. Its a celebration during world cup.
+				Messi won fifa Ballon ‘dor 5 times. Ronaldo won it for 3 times.
+				The first Clasico of the season between Barcelona and Real Madrid has been scheduled for December 3 at  11:15 a.m. ET (4:15 p.m. CET). Cant wait to see stars.
+				Somebody call it pitch but somebody call it arena. You decide what you wanna call it.
+			</response>
+		</record>
+		<record>
+			<keyword>
+				university
+				johnson
+				field
+				UNM
+			</keyword>
+			<phrase>
+				the johnson field
+				 the university pitch
+			</phrase>
+			<response>
+				We can join to play at johnson field if are available. we play every saturday like a star.
+				UNM has a cool pitch. They just have to cut grass often.
+				I can play soccer. I like playing striker or right winger.
+				Pele was the first rocking star of football. He was from brazil.
+				That would be wonderful to watch UNM players  playing soccer.
+				This rainy weather is great for playing. I like playing in rain in mud. Fun and dirt...
+			</response>
+		</record>
+		<record>
+		    <keyword>
+		        laliga
+			champions
+			trophy
+		    </keyword>
+		<phrase>
+		    the champions
+		</phrase>
+		<response>
+		    Barcelona is great ! What do you think of other teams?
+			Real madrid has a large fan followings.
+			Laliga wants to attract more viewers for the upcoming El classico.
+			Did you get the recent news?
+		</response>
+		</record>
+		<record>
+			<keyword>
+			premier
+			leagues
+			league
+			goal
+			goals
+			trophy
+			trophies
+			club
+			</keyword>
+			<phrase>
+				premier league
+				the Europe
+				the European league
+				the goal
+				the champions
+				the trophy
+			</phrase>
+			<response>
+				Atletico madrid won the champions league 2015.
+				I love Juventus.Even more i love Andres pirlo? any other players
+				Ronalodo is goal machine. Messi is great ? who do you think is better?
+				European are fast and play team game. South american play individually usually.
+				Manchester United beated Chelsea by 2-1. Rooney was the star of the game.
+				Muller had the record of highest world cup goals which was surprassed by Ronaldo from brazil. He had 15. 
+			</response>
+		</record>
+		<record>
+			<keyword>
+				messi
+				ronaldo
+				maradona
+				pele
+				pirlo
+				player
+				star
+				legend
+				classico
+			</keyword>
+			<phrase>
+				great player
+				football star
+			</phrase>
+			<response>
+				Pele is a legend of football. He contributed to win 3 worldcup in his career.
+				Maradona is the greatest star so far we know. Messi or Ronaldo?
+				 Argentina won because of maradona in 1986.
+				Many say Messi is the greatest player of all time. No world cup though.
+				I love Andres pirlo. he played for Juventus. Do you watch leagues?
+				Ronalidhno succedeed more than 6 nutmegs in game against AC milan.
+				Who do you think Maradona plays for? .. I mean country
+				Brazillian ronaldo has been fifa player of the year for 3 times. any player you like?
+				A professional soccer player runs 48 kilometers, or 3.9 miles, in an average soccer game.
+			</response>
+		</record>
+		<record>
+		    <keyword>
+		        argentina
+				brazil
+				country
+		    </keyword>
+		    <phrase>
+		        the country
+		        </phrase>
+		        <response>
+		            Brazil won it for five times, Germany 4 and italy 3
+		            South American games are different from european ones.
+		            I wish world cup was played in our country.
+		            Argentina rocks !! They are going to win the another cup .
+		        </response>
+		</record>
+		<record>
+			<keyword>
+				world
+				cup
+				worldcup
+				fifa
+			</keyword>
+			<phrase>
+				the world cup
+				the country
+				the fifa
+				the cup
+			</phrase>
+			<response>
+				First time world cup was played in two countries in 2002. Japan and South korea.
+				World cup is played every four years and is the biggest tournament of world.
+				World cup the most celebrated festival of football.
+				Ronaldihno was the showman of the football. His dribbling is spectucalar.You should see that.
+				Worldcup is played every four years.
+				Fifa is the worlds largest organization, even greater than UNO itself. Did you know this?
+				The Organziation FIFA was established in the year 1904
+			</response>
+		</record>
+		
+	</class>
+	<!--if response not found then we look for unknown ones with the specified 
+		keywords, if found return else return any random unknow response -->
+	<unknownresponse>
+	 <response>
+		Well, you should not have said that.Somebody might get offended.
+		I think you need a little bit of light here. You should probably watch more match.
+		I dont know what people talk. I feel like i am dying. I need football drink now!
+		I am happy you didnt mention presidential debate. Trump sucks !
+		Its boring day. I got lots of homework to do. I will miss the premier league.
+		I like this rainy weather. Football in rain. WOW !!
+		nah, dont say that. You can be a great footballer.
+		I dont like talking about anything else except football
+		Football runs in my blood.
+		I dont care about food if i am playing. 
+		I get a good sleep after i play football. 
+		I am sleeping for more than 8 hours nowadays.I play football almost everyday.
+		I don’t understand it. Can you rephrase it ? sorry i am not good in english.
+		Now, dont say that earth is round...
+		I didnot expect this. Lets move on to something else!
+		Using soccer or football means same to me. It doesnot really matter.
+		When i will have my home, i wish to have my own soccer pitch. 
+		I don't know what you are saying? I just speak football
+		I want you to join a soccer club for me.
+		I like girls playing soccer. I wish i could marry footballers lol.
+		</response>
+	</unknownresponse>
+	 <defaultaffirmatives>
+        <defaultaffirmatives>
+            yes
+            yup
+            yep
+            yeah
+            ya
+        </defaultaffirmatives>
+    </defaultaffirmatives>
+    <defaultnegatives>
+        <defaultnegatives>
+            no
+            nope
+            nah
+            na
+            never
+        </defaultnegatives>
+    </defaultnegatives>
+	<defaultresponse>
+	 <defaultresponse>
+	Glad ! we are talking. Cant wait to go to pitch now. I mean UNM pitch. Have you ever played there?
+	We should talk about it more. We speak football .. lol. Don't we? 
+	I hope you are doing well with studies. But keep your boots on.
+	I hope you had a good sleep. You look fresh and content. Did you win some game or what?
+	Great things happening around ! We have UNM soccer match tomorrow. You wanna attend it.
+	We should grab lunch time sometime ! We can talk about football more than !
+	</defaultresponse>
+	</defaultresponse>
+</data>
+

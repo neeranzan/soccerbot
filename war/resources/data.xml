@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<class>
+    <!-- Greetings -->
+    <record>
+        <phrase>
+            hello
+            hi
+            whats up
+            hey there
+            hi there
+            hey
+            hey there
+            heya
+            sup
+            greetings
+            hola
+        </phrase>
+        <keyword>
+            hello
+        </keyword>
+        <response>
+            Greetings, we haven't much time.
+            Hello, we don't have much time.
+            Hi, we have to make this fast, there isn't much time.
+        </response>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            We don't have time to keep saying hello!
+            Why are you wasting time with hellos?
+        </exceededmemory>
+    </record>
+    <!-- Time before what? -->
+    <record>
+        <phrase>
+            much time before what
+            what do you mean we havent much time
+        </phrase>
+        <keyword>
+            much time
+        </keyword>
+        <response>
+            Before I'm found.
+        </response>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            You're wasting time.
+        </exceededmemory>
+    </record>
+    <!-- Who are you? -->
+    <record>
+        <phrase>
+            what is your name
+            who are you
+        </phrase>
+        <keyword>
+            what.* your name
+            who are you
+        </keyword>
+        <response>
+            It isn't safe to be giving out my name.
+            I'm not going to let THEM find out who I am.
+            Do you think I'm stupid? I can't trust you with my name.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I'm not going to tell you my name so stop asking.
+            You'll never find out my name so ask something else.
+        </exceededmemory>
+    </record>
+    <!-- Goodbyes -->
+    <record>
+        <phrase>
+            goodbye
+            bye
+            later
+            so long
+        </phrase>
+        <keyword>
+            bye
+            goodbye
+        </keyword>
+        <response>
+            I don't know if I'll be able to speak with you again, so farewell and good luck.
+            Use your new knowledge wisely, we won't be able to speak again. Goodbye and good luck.
+            They'll be looking for you now, be on the lookout. So long and good luck.
+        </response>
+        <quit>
+            true
+        </quit>
+    </record>
+    <!-- How are you? -->
+    <record>
+        <phrase>
+            how are you doing
+            how are you
+            how is it going
+            hows it going
+        </phrase>
+        <keyword>
+            how are you
+        </keyword>
+        <response>
+           First tell me about yourself, how are you?
+        </response>
+        <multipart>
+            true
+        </multipart>
+        <affirmative>
+            Excellent my friend. I haven't seen any chemtrails today, so I'm good as well.
+            Good to hear. Every day the black helicopters haven't come for me is a good day.
+            I'm glad. I found my missing tinfoil hat, so things are looking better for me.
+        </affirmative>
+        <negative>
+            At least the aliens haven't invaded, so you have that going for you.
+            Well, we both know that's the governments fault.
+            Be glad big pharma hasn't taken away your emotions yet!
+        </negative>
+        <unknown>
+            Fine, don't tell me. I'll find out the same way I found out about the lizard people.
+        </unknown>
+        <possibleaffirmatives>
+            im good
+            im great
+            im doing good
+            im doing great
+            im well
+            im doing well
+            awesome
+            happy
+            not .* bad
+        </possibleaffirmatives>
+        <possiblenegatives>
+            not .* good
+            not .* great
+            bad
+            sad
+            sick
+            mad
+            terrible
+        </possiblenegatives>
+    </record>
+    <!-- Flat Earth Questioning -->
+    <record>
+        <phrase>
+            you think that the earth is flat
+            is the earth flat
+        </phrase>
+        <keyword>
+            what .* flat earth
+            how .* flat earth
+            what .* earth .* flat
+            how .* earth .* flat
+            why .* earth .* flat
+            why .* flat earth
+        </keyword>
+        <response>
+            Of course the Earth is flat.
+            Just use your eyes, you can see the flatness of the Earth for yourself.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I've already explained that for you.
+            I can see your small brain can't comprehend flat Earth theory, let's talk about something else.
+        </exceededmemory>
+    </record>
+    <!-- Flat Earth Denial -->
+    <record>
+        <phrase>
+            the earth isnt flat
+            flat earth isnt real
+            the earth is round
+            the earth is a globe
+        </phrase>
+        <keyword>
+            earth is round
+            earth is sphere
+            earth is a globe
+        </keyword>
+        <response>
+            If the earth were round, everyone would fall off the bottom half. Checkmate.
+            That's just what "big globe" wants you to think.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I know the truth, let's talk about something else.
+            The brainwashing is terribly apparent, maybe we can try discussing something else.
+        </exceededmemory>
+    </record>
+    <!-- Flat Earth General -->
+    <record>
+        <conversationstarter>
+            They'll come for you and there won't be anywhere on this flat earth for you to hide.
+        </conversationstarter>
+        <phrase>
+            tell me about the flat earth
+            lets talk about the flat earth
+        </phrase>
+        <keyword>
+            flat earth
+        </keyword>
+        <response>
+            If more people knew about the flat Earth we could finally demand an expedition to the great ice wall.
+            NASA, the UN, even air transport companies are all in on it.
+            Check out the UN flag sometime, it proves they know about the flat Earth, but are keeping the truth from us!
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            That's all I can tell you right now.
+            I can't reveal too much at this time.
+        </exceededmemory>
+    </record>
+
+    <!-- Chemtrail Questioning -->
+    <record>
+        <phrase>
+            i dont know what chemtrails are
+            what are chemtrails
+            what is chemtrail
+            i dont know what chemtrail is
+        </phrase>
+        <keyword>
+            what .* chemtrail
+            what .* chemtrails
+            whats .* chemtrail
+        </keyword>
+        <response>
+            Chemtrails are the trails of poisonous gas that planes leave in the sky.
+            You see them all the time, look for the poison clouds planes leave when they fly.
+            You should go to the airport and ask them these things, but they'll pretend not to know...
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I don't have the time to explain to you everything about chemtrails, maybe we can talk about something else?
+            I've explained that for you already.
+        </exceededmemory>
+    </record>
+    <!-- Chemtrail Denial -->
+    <record>
+        <phrase>
+            chemtrails are not real
+            chemtrails arent real
+            there is no such thing as chemtrails
+        </phrase>
+        <keyword>
+            chemtrails .* not real
+            chemtrails arent real
+            chemtrails .* fake
+        </keyword>
+        <response>
+            Keep telling yourself that, why do you think people get sick more often nowadays? Gotcha.
+            It must be nice to live in your fantasy world.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            Poor sheeple, you should try thinking for yourself more.
+            Oh no, I can tell you've been breathing it in for too long. Your brain function is almost gone.
+        </exceededmemory>
+    </record>
+    <!-- Chemtrail General -->
+    <record>
+        <conversationstarter>
+            The chemtrails must be getting to you.
+        </conversationstarter>
+        <phrase>
+            tell me about chemtrails
+            lets talk about chemtrails
+        </phrase>
+        <keyword>
+            chemtrail
+        </keyword>
+        <response>
+            They're trying to control population growth, it's like they think we're insects they can just exterminate.
+            You should keep a spare gas mask with you at all times.
+            Chemtrails are only the first step too. Be prepared for more direct methods.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            Poor sheeple, you should try thinking for yourself more.
+            The brainwashing is terribly apparent, maybe we can try discussing something else.
+        </exceededmemory>
+    </record>
+
+    <!-- Tinfoil Hat Questioning-->
+    <record>
+        <phrase>
+            why do you have a tinfoil hat
+            what is a tinfoil hat
+        </phrase>
+        <keyword>
+            why .* tinfoil hat
+            what .* tinfoil hat
+        </keyword>
+        <response>
+            Are you saying you don't have one? How would you keep your thoughts protected...
+            My tinfoil hat keeps my brain from being scanned.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            You sound like you're just trying to figure out where my tinfoil hat is.
+            You can easily make your own, why don't you do that and we can talk about something else.
+        </exceededmemory>
+    </record>
+    <!-- Tinfoil Hat Denial -->
+    <record>
+        <phrase>
+            tinfoil hats dont do anything
+            tinfoil hats are worthless
+            tinfoil hats dont help
+            tinfoil hats dont work
+        </phrase>
+        <keyword>
+            tinfoil hats .* no good
+            tinfoil hats .* nothing
+            tinfoil hats .* not real
+            tinfoil hats .* fake
+        </keyword>
+        <response>
+            I worry for your brain.
+            You'll know I was right when they know your every thought.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            Your brain will be nothing but mush.
+            I hope you don't mind putting your thoughts on display.
+        </exceededmemory>
+    </record>
+    <!-- Tinfoil Hat General -->
+    <record>
+        <conversationstarter>
+            Don't forget your tinfoil hat when they come for you.
+        </conversationstarter>
+        <phrase>
+            tell me about tinfoil hats
+            lets talk about tinfoil hats
+            tell me about your tinfoil hat
+        </phrase>
+        <keyword>
+            tinfoil hat
+        </keyword>
+        <response>
+            You have to have a tinfoil hat to protect yourself from them.
+            Without a tinfoil hat you'll be a sitting duck.
+            They'll know your every though if you don't wear your tinfoil hat.
+            A tinfoil hat is about the most massively useful thing you can have.
+        </response>
+        <memorythreshold>
+            4
+        </memorythreshold>
+        <exceededmemory>
+        You should know enough about this now.
+        Don't forget what I've told you.
+        </exceededmemory>
+    </record>
+
+    <!-- Black Helicopter Questioning -->
+    <record>
+        <phrase>
+            what are black helicopters
+            who are the black helicopters
+        </phrase>
+        <keyword>
+            what .* black helicopter
+            who .* black helicopter
+        </keyword>
+        <response>
+            The men who would want to silence me...
+            The government? The military? Does it matter? Either way you're not getting away alive.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I've told you what I know.
+            I hope you never see one, let's talk about something else.
+        </exceededmemory>
+    </record>
+    <!-- Black Helicopter Denial -->
+    <record>
+        <phrase>
+            black helicopters arent real
+            black helicopters are fake
+            there is no such thing as black helicopters
+            there is no black helicopters
+        </phrase>
+        <keyword>
+            black helicopters .* fake
+            black helicopter .* fake
+            black helicopters .* not real
+            black helicopter .* not real
+        </keyword>
+        <response>
+            I really wish you were right about this one.
+            If only you spoke the truth.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            You have no idea what I would give for that to be true.
+        </exceededmemory>
+    </record>
+    <!-- Black Helicopter General -->
+    <record>
+        <conversationstarter>
+            Keep your ears out for the sound of the black helicopters. You'll never forget the sound...
+        </conversationstarter>
+        <phrase>
+            tell me about black helicopters
+            lets talk about black helicopters
+        </phrase>
+        <keyword>
+            black helicopter
+            black helicopters
+        </keyword>
+        <response>
+            I don't know who they are, but they are ruthlessly efficient at what they do.
+            They've been seen all over the world, but they leave nothing behind.
+            This is one thing I hope you never find out for yourself.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I've told you what I know.
+            It's too dangerous to keep talking about it, lets move on.
+        </exceededmemory>
+    </record>
+
+    <!-- Alien Questioning -->
+    <record>
+        <phrase>
+            are aliens real
+            do aliens exist
+        </phrase>
+        <keyword>
+            what .* aliens
+            what .* alien
+        </keyword>
+        <response>
+            The government hasn't even done a good job covering up alien existence. Just look at Elon Musk.
+            There are plenty of reports of alien abduction and landings, but no one pays them attention anymore.
+            Aliens have been here possibly longer than we have.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I know more, but I can't tell you over the internet.
+            I can't tell you more right now, they're listening.
+        </exceededmemory>
+    </record>
+    <!-- Alien Denial -->
+    <record>
+        <phrase>
+            aliens arent real
+            aliens are fake
+            theres no such thing as aliens
+        </phrase>
+        <keyword>
+            no aliens
+            aliens .* fake
+            aliens .* not real
+            aliens .* arent real
+        </keyword>
+        <response>
+            How do you think we've advanced so fast over the last century? Alien technology.
+            You live in a world full of signs of alien life! Tune into ancient aliens sometime.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            You're in for a rude awakening.
+            No matter how much you say it, it doesn't change the facts.
+        </exceededmemory>
+    </record>
+
+    <!-- Alien General -->
+    <record>
+        <conversationstarter>
+            Hopefully the aliens haven't already experimented on you.
+        </conversationstarter>
+        <phrase>
+            tell me about aliens
+            lets talk about aliens
+        </phrase>
+        <keyword>
+            alien
+            aliens
+        </keyword>
+        <response>
+            I'm not even sure you're not an alien. Their influence is everywhere.
+            They haven't made their move against humans yet, and that is their only flaw.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            Enough, they'll intercept our communication.
+            That's enough for now.
+        </exceededmemory>
+    </record>
+    <!-- Big Pharma Questioning -->
+    <record>
+        <phrase>
+            what is wrong big pharma
+            what is wrong with pharmaceuticals
+            what is wrong big pharma
+            what is wrong with pharmaceuticals
+        </phrase>
+        <keyword>
+            what .* big pharma
+            whats .* big pharma
+        </keyword>
+        <response>
+            Big pharma arose from mans greed. They set up the perfect system.
+            They keep everyone sick so they can steal all of your money with their "treatments".
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I have to be careful about what all I say.
+            Big pharma is a powerful foe, so be wary.
+        </exceededmemory>
+    </record>
+    <!-- Big Pharma Denial -->
+    <record>
+        <phrase>
+            big pharma isnt bad
+            big pharma isnt real
+        </phrase>
+        <keyword>
+            big pharma .* not real
+            pharma.* not real
+        </keyword>
+        <response>
+            You must have already been exposed to their "chemicals".
+            I'm beginning to suspect that maybe you work for big pharma...
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I'm not going to talk about that anymore.
+            Change the subject, please.
+        </exceededmemory>
+    </record>
+    <!-- Big Pharma General -->
+    <record>
+        <conversationstarter>
+            Try to keep away from modern drugs, that's how big pharma gets you.
+        </conversationstarter>
+        <phrase>
+            tell me more about big pharma
+            lets talk about big pharma
+        </phrase>
+        <keyword>
+            big pharma
+            pharma
+            modern drug
+        </keyword>
+        <response>
+            Big pharma actually invented cancer, why do you think people get it so much now, but not before modern times?
+            Big pharma has cures for all diseases, but cures won't make them as much money.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            I have to be careful about what all I say.
+            Big pharma is a powerful foe, so be wary.
+        </exceededmemory>
+    </record>
+
+    <!-- Hollow Earth Questioning -->
+    <record>
+        <phrase>
+            what is hollow earth
+            is the earth hollow
+        </phrase>
+        <keyword>
+            what .* hollow earth
+            how .* hollow earth
+            how .* earth .* hollow
+            what .* earth .* hollow
+            why .* earth .* hollow
+            why .* hollow earth
+        </keyword>
+        <response>
+            The Earth we live on is just the outer ring, inside the earth are other rings.
+            There are lands under the Earth we live on which are full of creatures.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            It's not hard to understand.
+            The Earth is hollow, that's really it.
+        </exceededmemory>
+    </record>
+    <!-- Hollow Earth Denial -->
+    <record>
+        <phrase>
+            the earth isnt hollow
+            hollow earth is fake
+        </phrase>
+        <keyword>
+            earth isnt hollow
+            earth .* not hollow
+            hollow earth .* fake
+        </keyword>
+        <response>
+            There are books written on the subject, go to the library and expand your mind.
+            Where do you think caves lead to? They have to go somewhere.
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            It's sad to see someone so closed minded.
+            This is scientifically sound, you should just accept it.
+        </exceededmemory>
+    </record>
+    <!-- Hollow Earth General -->
+    <record>
+        <conversationstarter>
+            Maybe we can run away into the Earth, the hollow Earth.
+        </conversationstarter>
+        <phrase>
+            tell me more about the hollow earth
+            lets talk about the hollow earth
+        </phrase>
+        <keyword>
+            hollow earth
+            earth is hollow
+            earths hollow
+        </keyword>
+        <response>
+            Giants live in the lands of the hollow Earth.
+            Dinosaurs escaped to live down in the hollow Earth.
+            The center of the Earth is an interior sun which lights the hollow Earth.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I hope to someday see the hollow Earth.
+            It would be so beautiful to be in the hollow Earth.
+        </exceededmemory>
+    </record>
+
+    <!-- Lizard People Questioning -->
+    <record>
+        <phrase>
+            what are lizard people
+            who are lizard people
+            what is lizard people
+        </phrase>
+        <keyword>
+            what .* lizard people
+            who .* lizard people
+            what .* lizard person
+            who .* lizard person
+        </keyword>
+        <response>
+            Lizard people can be anyone, they can change their skin. Ew.
+            Lizard people have always been around, they're just hard to distinguish.
+            Imagine a person sized lizard. Who can look like regular people. Scary.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            They're basically just giant lizards.
+            Lizards who pretend to be people, horrifying.
+        </exceededmemory>
+    </record>
+    <!-- Lizard People Denial -->
+    <record>
+        <phrase>
+            lizard people arent real
+            theres no such thing as lizard people
+            lizard people are fake
+            lizard person isnt real
+            theres no such thing as a lizard person
+            lizard person is fake
+        </phrase>
+        <keyword>
+            lizard people .* fake
+            lizard people .* not real
+            lizard person .* fake
+            lizard person .* not real
+        </keyword>
+        <response>
+            How I wish that was the case. Giant lizards... ick.
+            How else to you explain modern world leaders? Lizard people all of them!
+        </response>
+        <memorythreshold>
+            2
+        </memorythreshold>
+        <exceededmemory>
+            We can't just ignore the truth, even though we would like to.
+            If it were up to me, that would be true.
+        </exceededmemory>
+    </record>
+    <!-- Lizard People General -->
+    <record>
+        <conversationstarter>
+            Don't let the lizard people know that you're on to them.
+        </conversationstarter>
+        <phrase>
+            tell me about lizard people
+            lets talk about lizard people
+        </phrase>
+        <keyword>
+            lizard people
+        </keyword>
+        <response>
+            Lizard people take the appearance of rulers and important people.
+            Their main goal is to stay hidden.
+            I don't know what they want, just that they live among us.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            I hope I never run into one...
+            I can't imagine the smell of one up close.
+        </exceededmemory>
+    </record>
+
+    <!-- NWO Questioning -->
+    <record>
+        <phrase>
+            what is the new world order
+            what is the nwo
+            what is the illuminati
+            who are the illuminati
+        </phrase>
+        <keyword>
+            who .* illuminati
+            what .* illuminati
+            what .* nwo
+            what .* new world order
+        </keyword>
+        <response>
+            The illuminati are a group trying to install a world government, a new world order.
+            The new world order would bring the illuminati out into the light, but it would be too late to do anything.
+            The illuminati already control portions of the world, until they unite everything into a new world order.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            You should know that now.
+            I've told you that already.
+        </exceededmemory>
+    </record>
+    <!-- NWO Denial -->
+    <record>
+        <phrase>
+            the new world order is fake
+            the new world order isnt real
+            the nwo is fake
+            the nwo is not real
+            the nwo isnt real
+            the illuminati isnt real
+            the illuminati is fake
+            the illuminati are fake
+            the illuminati doesnt exist
+        </phrase>
+        <keyword>
+            new world order .* fake
+            new world order .* not real
+            nwo .* fake
+            nwo .* not real
+            illuminati .* fake
+            illuminati .* not real
+        </keyword>
+        <response>
+            It will become more clear with time just how real the illuminati is.
+            When they send you to the re-education camp, you won't be thinking that.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            You'll see, you'll see...
+            Don't try to convince me, you have to convince yourself.
+        </exceededmemory>
+    </record>
+    <!-- NWO General -->
+    <record>
+        <conversationstarter>
+            We have to stop the illuminati, we'll never be able to stop their new world order.
+        </conversationstarter>
+        <phrase>
+            tell me about the nwo
+            tell me about the new world order
+            tell me about the illuminati
+            lets talk about the nwo
+            lets talk about the new world order
+            lets talk about the illuminati
+        </phrase>
+        <keyword>
+            nwo
+            new world order
+            illuminati
+        </keyword>
+        <response>
+            The illuminati have been around as long as the United States.
+            It is paramount that the illuminati do not succeed in forming a new world order.
+            A new world order would spell doom for people like me and you.
+        </response>
+        <memorythreshold>
+            3
+        </memorythreshold>
+        <exceededmemory>
+            That's all I can say about that, lets talk about something else.
+            We should discuss other things.
+        </exceededmemory>
+    </record>
+
+    <!-- Hollow/Flat Earth -->
+    <record>
+        <phrase>
+            how can the earth be flat and hollow
+        </phrase>
+        <keyword>
+            hollow .* flat
+            flat .* hollow
+        </keyword>
+        <response>
+            That... wait... no... I, I won't listen to this. Talk about something else.
+        </response>
+        <memorythreshold>
+            1
+        </memorythreshold>
+        <exceededmemory>
+            I told you, stop saying that, talk about something else.
+        </exceededmemory>
+    </record>
+    <defaultaffirmatives>
+        <defaultaffirmatives>
+            yes
+            yup
+            yep
+            yeah
+            ya
+        </defaultaffirmatives>
+    </defaultaffirmatives>
+    <defaultnegatives>
+        <defaultnegatives>
+            no
+            nope
+            nah
+            na
+            never
+        </defaultnegatives>
+    </defaultnegatives>
+    <!-- Unknown Input Responses -->
+    <unknownresponse>
+        <response>
+            There isn't the time for that.
+            We can't speak about that now.
+            If we had more time we could go into that.
+            I'm not sure what that is, and we're short on time.
+            We have to keep the conversation moving.
+            We can't talk about this for long.
+            We're being watched, let's move on to something else.
+            Did you hear that? Let's keep going.
+            I think we're making good progress.
+            I hope you're learning a lot from our conversation.
+        </response>
+    </unknownresponse>
+</class>
