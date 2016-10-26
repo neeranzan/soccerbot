@@ -1,17 +1,10 @@
 # chatbot
 
-Go to http://nsa-temp.cs.unm.edu:8080/chatbot to connect to our chatbot
+Go to http://nsa-temp.cs.unm.edu:8080/soccerbot to connect my soccerbot.
 
-You need a WebServer Glassfish or Servlet Container Tomcat for this application to run . I am using Tomcat 8 for this.
+The bot is all about soccer aka football (in other world). Please use the term "football"  but occasionally you can user "soccer" to see how it reacts. Ask about players, leagues, game rules, ask for a match at university, ask to join to see live game. You might want to use all possible terms used in football like stadium, star ,news, updates, leagues, empire, pitch, players, starts, history of football etc.
 
-JSP file is the presentation.
-InputHandler is the servlet that handles the javascript ajax request and provides with XML response.
+Technical Explanation: The knowledge base tries to respond with the canned response for the matched phrase, or match keyword and then stochastically gets one of the response out of the response list.  The bot tries to identify the connotation. Also there are modes defined based on time of interaction.
+There are multipart response for exactly: Greetings, match, live match, and goodbye greetings.
+The response list have been best designed to be interactive in a sense that one response list tries to persuades user to ask another question. OR basically tries them to talk what we want.
 
-********
-Basic design of our chatbot. data.xml in war/resources contains all of the dialog information with Phrases (direct matches)
-Keywords (regex matches) and responses which are selected at random (Stochasticity). The xml file also contains features
-such as conversation starters that are used when parsing an unknown input, memory thresholds which changes responses based
-off how often you've used a type of input, and multipart responses which require an intermediate user input to finish.
-The xml data is read into the program by the XMLParser class at startup and populates the Record class data structure.
-The ChatbotParser is the top level of the chatbot logic portion and contains the parse(String) method used to get a response.
-********
