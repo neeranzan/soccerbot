@@ -1,5 +1,7 @@
 # soccerbot aka footballbot
 
+ Soccerbot (a chatbot) is bot that tries to explain about soccer (aka football in rest world).
+
 Go to http://nsa-temp.cs.unm.edu:8080/soccerbot to connect my soccerbot.
 
 knowledge base : war/resources/soccer.xml
